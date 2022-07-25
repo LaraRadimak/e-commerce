@@ -1,0 +1,35 @@
+.encabezado{
+    display: flex;
+    align-items: center;
+    background: lightgray;
+    height: 90%;
+    padding: 20px;
+    justify-content: space-between;
+}
+.encabezado__div{
+    display: flex;  
+    align-items:center;
+    justify-content: space-around;
+}  
+/* celular */
+@media screen and (min-width:0){
+    .encabezado{
+        display: flex;  
+        align-items:center;
+        justify-content: space-between;
+    }
+ }
+@media screen and (min-width:768px){
+    .encabezado{
+        display: flex;  
+        align-items:center;
+        justify-content: space-between;
+    }
+}
+@media screen and (min-width:922px){
+    .encabezado{
+        display: flex;
+        align-items: center;
+       
+    }
+}

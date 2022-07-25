@@ -1,0 +1,23 @@
+.banner__parrafo{
+    position: absolute;
+    color: rgb(21, 20, 20);
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+}
+/* celular */
+@media screen and (min-width:0){
+    .banner__parrafo{
+        top:50%;
+        left:5%;
+        font-size: 18px;
+    }
+ }
+@media screen and (min-width:768px){
+    .banner__parrafo{
+        top: 50%;
+        left: 20%;
+        font-size: 22px;
+    }
+}

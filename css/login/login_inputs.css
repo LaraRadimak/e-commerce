@@ -1,0 +1,19 @@
+.iniciar__sesion__inputs{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+.iniciar__sesion__email, .iniciar__sesion__contraseña, .iniciar__sesion__btn{
+    width: 351px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+.iniciar__sesion__btn{
+    background: #2A7AE4;
+}
+.iniciar__sesion__btn:hover{
+    background: #1b71e2;
+    transform: scale(1.1);
+}

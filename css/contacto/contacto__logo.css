@@ -1,0 +1,27 @@
+.contacto__logo{
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    align-items: center;
+    margin-left: 200px
+}
+/* celular */
+@media screen and (min-width:0){
+    .contacto__logo{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+}
+@media screen and (min-width:768px){
+    .contacto__logo{
+        width: 130px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: row;
+        margin-right: 0;
+        margin-left: 80px;
+    }
+}

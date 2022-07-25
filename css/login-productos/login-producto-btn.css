@@ -1,0 +1,28 @@
+
+.articulo__agregarProducto{
+    background:#2A7AE4;
+    text-align: center;
+    width: 130px;
+    border-radius: 3px;
+    text-decoration: none;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 19px;
+    
+   
+}
+.articulo__agregarProducto:hover{
+    transform: scale(1.1);
+    background: #2577e3;
+}
+.vertodo__titulo2{
+     font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #464646;
+    margin-right: 599px;   
+}

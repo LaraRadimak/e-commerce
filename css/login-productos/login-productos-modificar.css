@@ -1,0 +1,19 @@
+.productos_img_modiicar_p, .productos_img_modiicar_t{
+    width: 20px;
+    height: 20px;
+    margin: 4px;
+}
+a{
+    text-decoration: none;
+}
+.vectores{
+    display: flex;
+    top: 20px;
+    left: 80px;
+    
+}
+.vectores:hover{
+    display: absolute;
+    top: 20px;
+    left: 80px;
+}

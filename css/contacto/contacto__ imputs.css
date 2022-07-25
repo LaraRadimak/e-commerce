@@ -1,0 +1,63 @@
+.contacto__hable{
+    align-items: flex-start;
+    margin-right: 200px;
+}
+.contacto__hable__titulo{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+    
+}
+.contacto__hable__nombre{
+    width: 350px;
+    height: 40px;
+    background: #FFFFFF;
+    border-radius: 4px;
+
+
+}
+.contacto__hable__nombre_nombre{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #A2A2A2;  
+}
+.contacto__hable__mensaje{
+    width: 350px;
+    height: 82px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+/* celular */
+@media screen and (min-width:0){
+    .contacto__hable{
+       display: flex;
+       justify-content: center;
+       flex-direction: column;
+       margin-right: 0;
+       margin-left: 70px;  
+       margin-top: 20px;
+       align-content: center;    
+   }
+}
+@media screen and (min-width:768px){
+    .contacto__hable{
+       display: block;
+       flex-direction: column;
+       flex-wrap: wrap;
+       
+   }
+}   
+

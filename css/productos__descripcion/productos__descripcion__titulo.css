@@ -1,0 +1,32 @@
+.productos__similares__titulo{
+    font-size: 35px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #464646;
+    margin-left: 280px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+/* celular */
+@media screen and (min-width:0){
+    .productos__similares__titulo{
+        text-align: center;
+        margin-left: 18px;
+    }
+
+}
+@media screen and (min-width:768px){
+    .productos__similares__titulo{
+        text-align: start;
+        margin-left: 10px;
+    }
+}
+@media screen and (min-width:922px){
+    .productos__similares__titulo{
+        text-align: start;
+        margin-left: 280px;
+    }
+}

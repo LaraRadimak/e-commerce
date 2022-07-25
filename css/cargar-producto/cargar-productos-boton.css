@@ -1,0 +1,29 @@
+.agregar__productos__btn{
+    background: #2A7AE4;
+}
+.agregar__productos__btn:hover{
+    background: #1b71e2;
+    transform: scale(1.1);
+}
+.btn-admi{
+    display: flex;
+    align-items: flex-end;
+    width: 176px;
+    height: 60px;
+    background: transparent;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-family: "Raleway";
+    color: #2A7AE4;
+    border-color: #2A7AE4;
+    text-decoration: none;
+    margin-right: 140px;
+}
+.btn-admi:hover{
+    transform: scale(1.1);
+
+}
+.a-btn{
+    text-decoration: none;
+}

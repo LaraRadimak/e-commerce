@@ -1,0 +1,19 @@
+.agregar__productos__inputs{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+.agregar__productos__url, .agregar__productos__categoria, .agregar__productos__nombre, .agregar__productos__precio, .agregar__productos__btn{
+    width: 351px;
+    height: 40px;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 5px #999;
+}
+.agregar__productos__descripcion{
+    width: 351px;
+    height: 60px;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 5px #999;
+}

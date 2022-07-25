@@ -1,0 +1,28 @@
+
+.productos__descripcion__imagen{
+   
+    box-shadow: 2px 2px 5px #999;
+}
+/* celular */
+@media screen and (min-width:0){
+    .productos__descripcion__imagen{
+        width: 80%;
+        height: 80%;
+        margin-left: 20px;        
+    }
+}
+@media screen and (min-width:768px){
+    .productos__descripcion__imagen{
+        width: 30%;
+        height: 30%;
+        margin-left: 20px;        
+    }
+    
+}
+@media screen and (min-width:922px){
+    .productos__descripcion__imagen{
+        width: 400px;
+        height: 400px;
+        margin-left: 20px;        
+    }
+}

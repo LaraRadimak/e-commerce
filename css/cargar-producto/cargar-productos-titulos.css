@@ -1,0 +1,18 @@
+.agregar__productos__titulo{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #464646;
+    justify-content: center;
+    display: flex;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+.agregar__productos{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 100px;
+}

@@ -1,0 +1,14 @@
+.productos__descripcion__header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.productos__descripcion__descripcion{
+    width: 250px;
+}
+.productos__descripcion__titulo{
+    margin-left: 20px;
+}
+.productos__descripcion__precio, .productos__descripcion__descripcion{
+    margin-left: 10px;
+}

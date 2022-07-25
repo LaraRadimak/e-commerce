@@ -1,0 +1,42 @@
+
+.productos__descripcion__header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+}
+.productos__descripcion__descripcion{
+    width: 400px;
+}
+.productos__descripcion__titulo{
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+.productos__descripcion__precio, .productos__descripcion__descripcion{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.productos__descripcion__descripcion{
+    font-size: 20px;
+}
+/* celular */
+@media screen and (min-width:0){
+    .productos__descripcion__header{
+        display: block;
+    }
+
+}
+@media screen and (min-width:768px){
+    .productos__descripcion__header{
+        display: block;
+    }
+    
+}
+@media screen and (min-width:922px){
+    .productos__descripcion__header{
+        display: flex;
+    }
+}

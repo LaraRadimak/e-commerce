@@ -1,0 +1,49 @@
+.buscador{
+    margin: 10px;
+    width: 320px;
+    height: 20px;
+    display: flex;
+    border-radius: 20px;
+    border-color: transparent;  
+    background: transparent;
+    box-shadow: 2px 2px 5px #999;
+
+}
+.lupa{
+    width: 30px;
+    border: 0px;
+	display: none;
+}
+@media screen and (min-width:0){
+    .buscador{
+        display: none;
+
+    }
+    .lupa{
+        display: flex;
+        justify-content: end;
+        margin-left: 70px;
+    }
+ }
+@media screen and (min-width:768px){
+    .buscador{
+        display: flex;
+        margin-left: 30px;
+        
+    }
+    .lupa{
+        display: none;
+       
+    }
+}
+@media screen and (min-width:922px){
+    .buscador{
+        display: flex;
+        margin-left: 50px; 
+    }
+    .lupa{
+        display: none;
+       
+    }
+}    
+

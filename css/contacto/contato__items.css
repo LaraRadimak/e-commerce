@@ -1,0 +1,36 @@
+.items__link{
+    font-family:"Raleway";
+    font-weight:500;
+    font-size: 16px;
+    line-height:18.78px;
+    text-decoration: none;
+    color: #464646;
+    margin-right: 20px;
+    line-height: 2;
+
+}
+/* celular */
+@media screen and (min-width:0){
+     .contacto__items__lista{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-right: 0;
+        margin-left: 190px;
+        margin-top: 10px;
+        
+    }
+}
+@media screen and (min-width:768px){
+    .contacto__items__lista{
+       display: flex;
+       justify-content: center;
+       flex-direction: column;
+       margin-left: 50px;  
+   }
+   .contacto__items{
+    display: flex;
+    flex-direction: row;
+   }
+}
+

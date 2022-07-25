@@ -1,0 +1,38 @@
+.banner__boton{
+    background: #2A7AE4;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px; 
+    position: absolute; 
+    border: transparent;
+    padding: 16px;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+
+}.banner__boton:hover{
+    background: gray;
+    color: white;
+}
+/* celular */
+@media screen and (min-width:0){
+    .banner__boton{
+        top:55%;
+        left:5%;
+        font-size: 12px;
+        width: 100px;
+        height: 31px;
+        align-items: center;
+        display: flex;
+    }
+ }
+@media screen and (min-width:768px){
+    .banner__boton{
+        top: 55%;
+        left: 20%;
+        width: 129px;
+        height: 51px;
+        font-size: 16px;
+    }
+}

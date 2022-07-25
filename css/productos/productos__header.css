@@ -1,0 +1,71 @@
+.articulo__vertodo{
+    display: flex;
+    justify-content:space-around;
+    padding: 10px;
+    flex-direction: row;
+
+}
+.vertodo__header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.vertodo__titulo{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #464646;
+    margin-right: 599px;
+    
+    
+}
+.vertodo__link{
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px; 
+    color: #2A7AE4;
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+    
+}
+.vertodo__img{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+/* celular */
+@media screen and (min-width:0){
+    .vertodo__titulo{
+        margin-right: 80px;
+    }
+    .vertodo__link{
+        margin-right: 10px;
+    }
+
+}
+@media screen and (min-width:768px){
+    .vertodo__titulo{
+        margin-right: 400px;
+    }
+    .vertodo__link{
+        margin-right: 40px;
+    }
+    
+}
+@media screen and (min-width:922px){
+    .vertodo__titulo{
+        margin-right: 599px;
+    }
+    .vertodo__link{
+        margin-right: 10px;
+    }
+    
+}
